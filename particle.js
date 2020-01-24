@@ -7,7 +7,7 @@ class Particle {
             this.vel = createVector (0, random(-12, -8));  // Go up
         else {
             this.vel = p5.Vector.random2D ();
-            this.vel.mult (random(2, 10));  // Otherwise their mag will be same
+            this.vel.mult (random(2, 12));  // Otherwise their mag will be same
         }
         this.hu = hu;
         this.lifespan = 255;
