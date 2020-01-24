@@ -51,7 +51,7 @@ function draw () {
         if (guidingIndex == guidedRockets.length) {
             setTimeout (() => {
                 reboot ();
-            }, 25000);
+            }, 15000);
         }
     }
     for (let i = rockets.length - 1; i >= 0; i--) {

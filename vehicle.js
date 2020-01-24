@@ -17,7 +17,7 @@ class Vehicle {
 
     behavior () {
         let arrivingSteer = this.arrive (this.target);
-        arrivingSteer.mult (0.1);
+        arrivingSteer.mult (0.4);
         this.applyForce (arrivingSteer);
     }
 
