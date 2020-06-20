@@ -6,7 +6,7 @@ let gravity;
 let font;
 let points = [];
 let vehicles = [];
-let wishingText = "RASH (ENEMY)"
+let wishingText = "LOVING PAPA"
 let explosionSound = null;
 
 function preload () {
